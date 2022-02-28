@@ -1,0 +1,29 @@
+.top-bar {
+  max-width: 900px;
+}
+
+.bar-title {
+  font-size: 24px;
+}
+
+.body-container {
+  max-width: 900px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+.input-row {
+  margin-bottom: 10px;
+}
+
+.main-text-div {
+  max-width: 200px;
+  margin: auto;
+  padding-top: 20px;
+  white-space: pre;
+}
+
+.button-div {
+  margin-top: 20px;
+}
