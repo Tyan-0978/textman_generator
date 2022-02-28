@@ -46,9 +46,11 @@ const App = () => {
 \\Ԏ${bodySymbol}${bodySymbol}${bodySymbol}${bodySymbol}  Ԏ/
 　卜−${bodySymbol}${bodySymbol}―イ
 　  \\${bodySymbol}${bodySymbol}/\\${bodySymbol} ﾉ
-　　\\${bodySymbol}ﾉ    \\${bodySymbol}/`;
+　　\\${bodySymbol}ﾉ    \\${bodySymbol}/
+
+https://textman-generator.vercel.app/`;
     navigator.clipboard.writeText(targetText);
-    alert("Text copied");
+    //alert("Text copied");
   };
 
   return (
