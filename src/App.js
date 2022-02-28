@@ -73,16 +73,16 @@ const App = () => {
 	  </Col>
 	</Row>
         <Row className="input-row">
-	  <Form.Label column xs={3}>
+	  <Form.Label column md={1} xs={3}>
 	    Eyes
 	  </Form.Label>
-	  <Col xs={4}>
+	  <Col md={5} xs={4}>
 	    <Form.Control
 	      type="text" value={ leftEye }
 	      onChange={ (e) => setLeftEye(e.target.value) }
 	    />
 	  </Col>
-	  <Col xs={4}>
+	  <Col md={5} xs={4}>
 	    <Form.Control
 	      type="text" value={ rightEye }
 	      onChange={ (e) => setRightEye(e.target.value) }
@@ -90,10 +90,10 @@ const App = () => {
 	  </Col>
 	</Row>
         <Row className="input-row">
-	  <Form.Label column xs={3}>
+	  <Form.Label column md={1} xs={3}>
 	    Mouth
 	  </Form.Label>
-	  <Col xs={8}>
+	  <Col md={11} xs={8}>
 	    <Form.Control
 	      type="text" value={ mouth }
 	      onChange={ (e) => setMouth(e.target.value) }
@@ -101,10 +101,10 @@ const App = () => {
 	  </Col>
 	</Row>
         <Row className="input-row">
-	  <Form.Label column xs={3}>
+	  <Form.Label column md={1} xs={3}>
 	    Body
 	  </Form.Label>
-	  <Col xs={8}>
+	  <Col md={11} xs={8}>
 	    <Form.Control
 	      type="text" value={ bodySymbol }
 	      onChange={ (e) => setBodySymbol(e.target.value) }
