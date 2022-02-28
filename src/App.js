@@ -11,8 +11,8 @@ import './app.css';
 
 const App = () => {
   const [name, setName] = useState("雪男");
-  const [leftEye, setLeftEye] = useState("  ' ");
-  const [rightEye, setRightEye] = useState(" '  ");
+  const [leftEye, setLeftEye] = useState("    ' ");
+  const [rightEye, setRightEye] = useState(" '    ");
   const [mouth, setMouth] = useState("ω");
   const [bodySymbol, setBodySymbol] = useState("❄️");
 
